@@ -1,5 +1,3 @@
-*.csv
-*.
-ipynb
+*.ipynb
 *.txt
 /.ipynb_checkpoints/
