@@ -11,7 +11,7 @@ df['giannis'] = df.Player == 'Giannis Antetokounmpo'
 giannis = df[df.giannis==True]
 league_players = df[df.harden==False]
 
-plt.figure(dpi=150)
+plt.figure(dpi=75)
 plt.scatter(league_players.TSPer, league_players.PTS, c=sns.xkcd_palette(['windows blue']), label='League', alpha = .8)
 plt.scatter(harden.TSPer, harden.PTS, c=sns.xkcd_palette(['light red']), label='Harden')
 plt.scatter(giannis.TSPer, giannis.PTS, c=sns.xkcd_palette(['dull green']), label='Giannis')

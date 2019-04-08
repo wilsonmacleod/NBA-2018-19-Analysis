@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 sns.set_style('dark')
 
-df = pd.read_csv(r'C:\Users\wilso\Desktop\NBA_Analysis\Player-Advanced.csv',index_col=0)
+df = pd.read_csv(r'C:\Users\wilso\Desktop\NBA_Analysis\MVP_Race\data\Player-Advanced.csv',index_col=0)
 df = df[df['USGPer']>20.00]
 df = df[df['MP']>500]
 df['harden'] = df.Player == 'James Harden'
@@ -13,7 +13,7 @@ df['giannis'] = df.Player == 'Giannis Antetokounmpo'
 giannis = df[df.giannis==True]
 league_players = df[df.harden==False]
 
-plt.figure(dpi=150)
+plt.figure(dpi=75)
 plt.scatter(league_players.FGA, league_players.FTr ,label='League> 20% Usage', alpha = .8)
 plt.scatter(harden.FGA, harden.FTr, c=sns.xkcd_palette(['light red']), label='Harden')
 plt.scatter(giannis.FGA, giannis.FTr, c=sns.xkcd_palette(['dull green']), label='Giannis')
