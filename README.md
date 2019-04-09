@@ -27,7 +27,7 @@ The first thing that stood out to me in this race is the amount each player is b
 - Shooting Free-throws 
 - Turning the ball over. 
 
-The Rockets lean heavily on Harden each and every game, over 40% of their plays while he is on the floor end with a Harden action. He is also 2nd in the league in Minutes Played indicating  he gets very few games/quarters off unlike Giannis who is often sitting for most 4th quarters. When paired with his massive lead in usage it's even more obvious how much the Rocket's rely on Harden.
+The Rockets lean heavily on Harden each and every game, over 40% of their plays while he is on the floor end with a Harden action. He is also 2nd in the league in Minutes Played emphasizing the game by game demand the Rockets place on him.
 
 ![alt text](https://github.com/wilsonmacleod/NBA-2018-19-Analysis/blob/master/MVP_Race/figs/TotalMinsUsage.png)
 
