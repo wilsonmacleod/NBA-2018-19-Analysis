@@ -33,9 +33,28 @@ The Rockets lean on Harden heavily each and every game, over 40% of their plays 
 
 (Players with <500 minutes played (~10 full games) were not included in the figure as there are some meaningless high usage ratings in there (read garbage time chuckers.))
 
-Given Harden's unheard of usage rate and his heavy minutes load, his scoring efficiency and shooting must be suffering right? Wrong. True Shooting Percentage (TS%) is a stat that factors and weighs 2 point shots, 3 point shots and free throws and aims to gauge a players true efficiency at scoring the ball. Harden is currently leading the league in points per game by a sizable margin while maintaing a shooting effiecieny that is slightly above the leagues other leading scorers. Giannis is no slouch in this department either while being 3rd in the NBA in scoring and leading 25+ point per game scorers in TS%.
+Given Harden's unheard of usage rate and his heavy minutes load, his scoring efficiency and shooting must be suffering right? Wrong. True Shooting Percentage (TS%) is a stat that factors and weighs 2 point shots, 3 point shots and free throws and aims to gauge a players true efficiency at scoring the ball. Harden is currently leading the league in points per game by a sizable margin while maintaing a shooting effiecieny that is above the leagues other leading scorers. Giannis is no slouch in this department either being tied for the lead in TS% for players above 20 points per game while not shooting threes.
 
 ![alt text](https://github.com/wilsonmacleod/NBA-2018-19-Analysis/blob/master/MVP_Race/figs/ScoringTS.png)
+
+This sustained performance despite hefty load is also evident in the two's PER scores. PER is Player Efficiency Rating, PER strives to measure a player's per-minute performance, while adjusting for pace.
+
+![alt text](https://github.com/wilsonmacleod/NBA-2018-19-Analysis/blob/master/MVP_Race/figs/PERvUSG.png)
+### The Ying and The Yang
+
+So what are the keys to these two superstars offensive games? Getting to the line! Both Dominant the game scoring wise in their own ways, Giannis in the paint (2 pointers) and Harden from Three (only Steph Curry has him beat in makes per game.) But the thing they both have in common is they attempt and make free throws at a vey high clip.
+
+![alt text](https://github.com/wilsonmacleod/NBA-2018-19-Analysis/blob/master/MVP_Race/figs/ScoringRoots.png)
+
+Harden leads the league in free throws attempted and made per game, but is this a product of flopping? Skill? Favoritism from the refs? Free throw rate is the number of free throw attempts per field goal attempt. While Harden is getting to the line with more volume than the rest of the league this may be down to his crazy usage rating and the volume of shots he is taking. Giannis and Joel Embiid are actually getting to the line at a higher rate per field goal attempt.
+
+![alt text](https://github.com/wilsonmacleod/NBA-2018-19-Analysis/blob/master/MVP_Race/figs/FreeThrowRate.png)
+
+### The "Other" Side of The Ball
+
+Defensive impact is very hard to quantify even using advanced stats. Later on in my analyses I will be examining if how much steals and blocks actually mean to a teams defensive prowess. That being said here are some stats from the "other" side of the ball. Giannis dominates the defensive boards while Harden gets steals at a suprising rate.
+
+![alt text](https://github.com/wilsonmacleod/NBA-2018-19-Analysis/blob/master/MVP_Race/figs/generalDEF.png)
 
 
 
