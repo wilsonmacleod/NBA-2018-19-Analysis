@@ -5,6 +5,7 @@ from matplotlib import pyplot as plt
 
 df = pd.read_csv(r'C:\Users\wilso\Desktop\NBA_Analysis\NBA_Trends\data\09vs19.csv')
 df = df[df['G']>40] #remove players less than 40 games played
+df = df[df['MP']>20]
 
 pd.to_numeric(df['3PA']) #conver to numeric values
 pd.to_numeric(df['Year'])
