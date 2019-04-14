@@ -3,39 +3,56 @@ import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
 
-df = pd.read_csv(r'C:\Users\wilso\Desktop\NBA_Analysis\NBA_Trends\data\09vs19.csv')
-df = df[df['G']>40] #remove players less than 40 games played
-df = df[df['MP']>20]
+df = pd.read_csv(r'C:\Users\wilso\Desktop\NBA_Analysis\NBA_Trends\data\team_pg09vs19.csv') #fig one
 
-pd.to_numeric(df['3PA']) #conver to numeric values
-pd.to_numeric(df['Year'])
+points = df.groupby('year')['PTS'].mean()
+threes = df.groupby('year')['3PA'].mean()
 
-df['Position'] = df['Pos'].apply(lambda title: title.split('-')[0])#merge various hybrid roles into traditional 5
+df1 = pd.DataFrame(points).reset_index()
+df2 = pd.DataFrame(threes).reset_index()
 
-avrge = df.groupby(['Position', 'Year'])['3PA'].mean() 
-df = pd.DataFrame(avrge).reset_index()
+df = df1.join(df2.set_index('year'), on='year')
 
-conditions = [(df['Year']==2009) | (df['Year']==2010) | (df['Year']==2011) | (df['Year']==2012) 
-            | (df['Year']==2013) | (df['Year']==2014)]
-choices = ["2009-14"]
-df['boo'] = np.select(conditions, choices, default="2015-19") #create our two groups of years
+tres = df['3PA']
+pts = df['PTS']
 
-sns.set(style='whitegrid') #fig1
-plt.figure(figsize=(7,5))
-order_rank = ['PG', 'SG', 'SF', 'PF', 'C']
-ax = sns.boxenplot(x="Position", y="3PA", hue = 'boo',
-              color="r", order=order_rank,
-              scale="linear", saturation=100, palette='magma', data=df)
-ax.legend(loc="lower left", frameon=True, fontsize = 10)
-ax.set(ylabel="Avg 3PA Per Game", xlabel="Position")
-plt.savefig(fname=r'C:\Users\wilso\Desktop\NBA_Analysis\NBA_Trends\figs\3PA-boxen')
+data1 = tres.as_matrix(columns=None)
+data2 = pts.as_matrix(columns=None)
 
-sns.set(style='whitegrid') #fig2
-plt.figure(figsize=(7,5))
-order_rank = ['PG', 'SG', 'SF', 'PF', 'C']
-ax = sns.relplot(x='Year', y="3PA",
-            hue="Position", hue_order=order_rank,
-            height=5, aspect=.75, facet_kws=dict(sharex=False),
-            kind="line", legend="full", data=df)
-ax.set(ylabel="Avg 3PA Per Game", xlabel="Position")
-plt.savefig(fname=r'C:\Users\wilso\Desktop\NBA_Analysis\NBA_Trends\figs\3PA-line')
+fig, ax1 = plt.subplots(dpi=75)
+
+color = 'tab:blue'
+ax1.set_xlabel('Year of Season')
+ax1.set_ylabel('3PA per game', color=color)
+ax1.plot(df['year'], data1, color=color)
+ax1.tick_params(axis='y', labelcolor=color)
+
+ax2 = ax1.twinx()
+color = 'tab:red'
+ax2.set_ylabel('Points Per Game', color=color) 
+ax2.plot(df['year'], data2, color=color)
+ax2.tick_params(axis='y', labelcolor=color)
+
+fig.tight_layout() 
+plt.savefig(fname=r'C:\Users\wilso\Desktop\NBA_Analysis\NBA_Trends\figs\3PAvPTS')
+
+df = pd.read_csv(r'C:\Users\wilso\Desktop\NBA_Analysis\NBA_Trends\data\team_pg09vs19.csv') #fig two
+df1 = pd.read_csv(r'C:\Users\wilso\Desktop\NBA_Analysis\NBA_Trends\data\standings.csv')
+
+df1 = df1[df1['year']>2008]
+df['year'] = df['year'].astype(int)
+df1['year'] = df1['year'].astype(int)
+final_df = pd.merge(df,df1,on=['year','Team'])
+
+df = df.groupby(['year','Rk'])['3PA'].mean()
+df1 = pd.DataFrame(df).reset_index()
+
+conditions = [(df1['year']>=2005) & (df1['year']<2011),(df1['year']>=2011) & (df1['year']<2014), 
+              (df1['year']>=2014) & (df1['year']<2016), (df1['year']>=2016) & (df1['year']<2020)]
+choices = ["2008-2010","2011-2013","2014-2016","2017-2019"]
+df1['Range'] = np.select(conditions, choices, default="NA")
+
+g = sns.lmplot(x="Rk", y="3PA", x_bins=5, hue="Range", truncate=True, height=4, data=df1)
+g.set(xlim=(30,1))
+g.set(ylabel="3PA",xlabel="Finishing Positions")
+plt.savefig(fname=r'C:\Users\wilso\Desktop\NBA_Analysis\NBA_Trends\figs\3PAvRk')
