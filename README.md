@@ -29,11 +29,11 @@ and
 
 B) the expected timeline/range of results of this strategy
 
-For this figure I took all the teams from 2000-2012 who had a first overall pick and mapped average changes in Win Percentage over a five year post-pick period.
+For this figure I took all the teams from 2000-2012 who had a first overall pick and mapped average changes in Win Percentage over a five-year post-pick period.
 
 ![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/NBA_Trends/figs/theprocess.png)
 
-Based on my analysis teams generally "peak" in terms of win percentage in the 3rd and 4th years after a obtaining and using a first overall pick. With the highest variance of results coming the 5th season. This timeline aligns perfectly with the initial four year rookie contract, with the variance in the fifth year being explained by a teams ability to keep and/or build around their newfound star. Outside of a few outliers this strategy has proven to be very effective with the averages of all seasons post number one pick showing a 15%+ increase in Win Percentage.
+Based on my analysis franchises generally "peak" in terms of win percentage in the 3rd and 4th years after a obtaining and using a first overall pick. With the highest variance of results coming the 5th season. This timeline aligns perfectly with the initial four-year rookie contract, with the variance in the fifth year being explained by a team’s ability to keep and/or build around their newfound star. Outside of a few outliers this strategy has proven to be very effective with the averages of all seasons post number one pick showing a 15%+ increase in Win Percentage.
 
 ## The Three Point Revolution
 
@@ -43,7 +43,7 @@ I wanted to see if I could track the impact the success of the Golden State Warr
 
 ### Three Point Revolution
  
- First, I wanted to see if the much publicized increase in 3 point shooting league-wide was as signifigant as it has been made out to be. Second, if that increase in 3 point attempts led to more points per game and if there was a positive correlation between 3s attempted and Wins and Losses and finally if that correlation was more/less signifigant at different time intervals in the last 10 NBA seasons.
+ First, I wanted to see if the much-publicized increase in 3-point shooting league-wide was as signifigant as it has been made out to be. Second, if that increase in 3-point attempts led to more points per game and if there was a positive correlation between 3s attempted and Wins and Losses and finally if that correlation was more/less signifigant at different time intervals in the last 10 NBA seasons.
  
 ![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/NBA_Trends/figs/3PAvPTS.png)
 
@@ -51,11 +51,11 @@ There has been a strong correlation between 3s attempted and points per game sin
 
 ![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/NBA_Trends/figs/3PAvRk.png)
 
-Although there is a correlation between 3s attempted and finishing position in the league, it hasnt necassarily been impacted signifigantly by the massive uptick of 3s attempted per game.
+Although there is a correlation between 3s attempted and finishing position in the league, it hasnt necessarily been impacted signifigantly by the massive uptick of 3s attempted per game.
 
 ### "Small Ball"
 
-I wanted to see if the play-style swing that accompanied the 3 point revolution, "small ball", could be quantified and if there was a signifigant change in the way guards and forwards have begun playing. Small ball is generally playing with only 1 or 0 traditional "big men or playing with a 4 position who can spread the floor and shoot open long distance shots.
+I wanted to see if the play-style swing that accompanied the 3-point revolution, "small ball", could be quantified and if there was a signifigant change in the way guards and forwards have begun playing. Small ball is generally playing with only 1 or 0 traditional "big men or playing with a 4 position who can spread the floor and shoot open long-distance shots.
 
 I examined players from the 2009-2019 seasons and classified their positions based on Basketball References listed positions as well as consolidating hybrid roles (PG-SG = PG, SF-PF = SF etc.) I also only included players who played more than 30 games and averaged 10 or more minutes per game.
 
@@ -86,7 +86,7 @@ The Rockets lean heavily on Harden each and every game, over 40% of their plays 
 
 (Players with <500 minutes played (~10 full games) were not included in the figure as there are some meaningless high usage ratings in there (read garbage time chuckers.))
 
-Given Harden's unheard of usage rate and his heavy minutes load, his scoring efficiency and shooting must be suffering right? Wrong. True Shooting Percentage (TS%) is a stat that factors and weighs 2 point shots, 3 point shots and free throws and aims to gauge a players true efficiency at scoring the ball. Harden is currently leading the league in points per game by a sizable margin while maintaining a shooting efficiency  that is above the leagues other leading scorers. Giannis is no slouch in this department either being tied for the lead in TS% for players above 20 points per game while not shooting threes.
+Given Harden's unheard-of usage rate and his heavy minutes load, his scoring efficiency and shooting must be suffering right? Wrong. True Shooting Percentage (TS%) is a stat that factors and weighs 2-point shots, 3 point shots and free throws and aims to gauge a players true efficiency at scoring the ball. Harden is currently leading the league in points per game by a sizable margin while maintaining a shooting efficiency that is above the leagues other leading scorers. Giannis is no slouch in this department either being tied for the lead in TS% for players above 20 points per game while not shooting threes.
 
 ![alt text](https://github.com/wilsonmacleod/NBA-2018-19-Analysis/blob/master/MVP_Race/figs/ScoringTS.png)
 
@@ -121,7 +121,7 @@ As player age increases offensive rating increases while defensive rating starts
 
 ![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/Vets/figs/ratings.png)
 
-### Experience Is The Greatest Teacher
+### Experience Is the Greatest Teacher
 
 Players also make "smarter plays" as they age they commit fouls and turnover the ball at a lower rate as they get older and gain more League experience. 
 
@@ -130,5 +130,6 @@ Players also make "smarter plays" as they age they commit fouls and turnover the
 On average they also shoot at a lower rate and make passes leading to teammates scoring at a higher rate as they age.
 
 ![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/Vets/figs/pts_ast.png)
+
 
 
