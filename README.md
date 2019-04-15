@@ -29,11 +29,11 @@ and
 
 B) the expected timeline/range of results of this strategy
 
-For this figure I took all the teams from 2000-2012 who had a first overall pick and mapped their increase or decrease in Win Percentage over a five post-pick period.
+For this figure I took all the teams from 2000-2012 who had a first overall pick and mapped average changes in Win Percentage over a five year post-pick period.
 
 ![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/NBA_Trends/figs/theprocess.png)
 
-Based on my analysis teams generally "peak" in terms of win percentage in the 3rd and 4th years after a obtaining and using a first overall pick. With the highest variance of results coming the 5th season. This timeline aligns perfectly with the initial four year contract, with the variance being explained by a teams ability to keep/build around their newfound star. Outside of a few outliers this strategy has proved to be very effective with the averages of all seasons post "bottoming-out" showing a 15%+ increase in Win Percentage on average.
+Based on my analysis teams generally "peak" in terms of win percentage in the 3rd and 4th years after a obtaining and using a first overall pick. With the highest variance of results coming the 5th season. This timeline aligns perfectly with the initial four year rookie contract, with the variance in the fifth year being explained by a teams ability to keep and/or build around their newfound star. Outside of a few outliers this strategy has proven to be very effective with the averages of all seasons post number one pick showing a 15%+ increase in Win Percentage.
 
 ## The Three Point Revolution
 
@@ -43,7 +43,7 @@ I wanted to see if I could track the impact the success of the Golden State Warr
 
 ### Three Point Revolution
  
- First I wanted to see if the much publicized increase in 3 point shooting league wide was as signifigant as it was made out to be, if that increase in 3 point attempts led to more points per game and if there was a positive correlation between 3s attempted and Wins and Losses and if that correlation was more/less signifigant at different times in the last 10 NBA seasons.
+ First, I wanted to see if the much publicized increase in 3 point shooting league-wide was as signifigant as it has been made out to be. Second, if that increase in 3 point attempts led to more points per game and if there was a positive correlation between 3s attempted and Wins and Losses and finally if that correlation was more/less signifigant at different time intervals in the last 10 NBA seasons.
  
 ![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/NBA_Trends/figs/3PAvPTS.png)
 
