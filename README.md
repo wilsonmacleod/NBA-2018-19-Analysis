@@ -11,8 +11,7 @@ All data is courtesy of [Basketball Reference](https://www.basketball-reference.
 - Consitency is key (coming soon)
 - Bestbrook or Worstbrook? (coming soon)
 - Player "Portability" (coming soon)
-- Keys to team success (coming soon)
-- Most Improved Player(s)
+- Most Improved Player(s) (Figures in Repo)
 
 ## NBA Trend Analysis
 
