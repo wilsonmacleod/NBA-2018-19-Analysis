@@ -3,6 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+sns.set_style('whitegrid')
+
 df = pd.read_csv(r'C:\Users\wilso\Desktop\NBA_Analysis\Vets\data\advanced00-19.csv').reset_index()
 df = df[(df['ORtg']>75) & (df['ORtg']<200)] #remove statiscal outliers
 df = df[(df['DRtg']>75) & (df['DRtg']<200)] 
@@ -27,7 +29,6 @@ ax1.plot(ortg['Age'], data1, color=color, linewidth = 3)
 ax1.tick_params(axis='y', labelcolor=color)
 ax1.set_ylim(100,106)
 ax1.set_xlim(19,37)
-ax1.set_title('Off & Def vs. Age')
 
 ax2 = ax1.twinx()
 color = 'tab:green'
@@ -68,7 +69,7 @@ plt.savefig(fname=r'C:\Users\wilso\Desktop\NBA_Analysis\Vets\figs\to_pf')
 
 sns.set_style('darkgrid')
 
-df = pd.read_csv(r'C:\Users\wilso\Desktop\NBA_Analysis\Vets\data\advanced00-19.csv').reset_index()
+df = pd.read_csv(r'C:\Users\wilso\Desktop\NBA_Analysis\Vets\data\advanced00-19.csv').reset_index() #figure 3
 df = df[df['MP'] > 500]
 df = df[df['G'] > 30]
 df = df[df['Age'] >= 18]
