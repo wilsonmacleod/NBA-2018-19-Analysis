@@ -1,4 +1,4 @@
-# NBA-2018-19-Analysis
+# NBA 2018-19 Analysis
 
 Analysis of various facets and storylines of the 2018-2019 NBA regular season using numpy, pandas, matplotlib and seaborn.
 
