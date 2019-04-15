@@ -5,14 +5,68 @@ Analysis of various facets and storylines of the 2018-2019 NBA regular season us
 All data is courtesy of [Basketball Reference](https://www.basketball-reference.com/) unless otherwise noted.
 
 ## CONTENTS:
+- Trends Analysis
 - MVP RACE 2019
 - Consitency is key (coming soon)
 - Bestbrook or Worstbrook? (coming soon)
 - Player "Portability" (coming soon)
-- NBA Trends (coming soon)
 - The Veteran Effect (coming soon)
 - Keys to team success (coming soon)
 - Most Improved Player(s)
+
+## NBA Trend Analysis
+
+### Introduction:
+
+I wanted to look into to two phenomena of the modern NBA: Tanking and the Three Point/Small Ball revolution.
+
+### #TheProcess
+
+In the NBA, tanking is when a franchise loses games on purpose to get a better (higher) draft choice. This is most famously personified today by the Philidelphia 76ers who went through "The Process" and were terrible on a historical level for a number of years in a row. I wanted to see if this strategy was:
+
+A) Actually effective
+
+and
+
+B) the expected timeline/range of results of this strategy
+
+For this figure I took all the teams from 2000-2012 who had a first overall pick and mapped their increase or decrease in Win Percentage over a five post-pick period.
+
+![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/NBA_Trends/figs/theprocess.png)
+
+Based on my analysis teams generally "peak" in terms of win percentage in the 3rd and 4th years after a obtaining and using a first overall pick. With the highest variance of results coming the 5th season. This timeline aligns perfectly with the initial four year contract, with the variance being explained by a teams ability to keep/build around their newfound star. Outside of a few outliers this strategy has proved to be very effective with the averages of all seasons post "bottoming-out" showing a 15%+ increase in Win Percentage on average.
+
+## The Three Point Revolution
+
+### Introduction
+
+I wanted to see if I could track the impact the success of the Golden State Warriors and their style of play have had on the league.
+
+### Three Point Revolution
+ 
+ First I wanted to see if the much publicized increase in 3 point shooting league wide was as signifigant as it was made out to be, if that increase in 3 point attempts led to more points per game and if there was a positive correlation between 3s attempted and Wins and Losses and if that correlation was more/less signifigant at different times in the last 10 NBA seasons.
+ 
+![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/NBA_Trends/figs/3PAvPTS.png)
+
+There has been a strong correlation between 3s attempted and points per game since 2012.
+
+![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/NBA_Trends/figs/3PAvRk.png)
+
+Although there is a correlation between 3s attempted and finishing position in the league, it hasnt necassarily been impacted signifigantly by the massive uptick of 3s attempted per game.
+
+### "Small Ball"
+
+I wanted to see if the play-style swing that accompanied the 3 point revolution, "small ball", could be quantified and if there was a signifigant change in the way guards and forwards have begun playing. Small ball is generally playing with only 1 or 0 traditional "big men or playing with a 4 position who can spread the floor and shoot open long distance shots.
+
+I examined players from the 2009-2019 seasons and classified their positions based on Basketball References listed positions as well as consolidating hybrid roles (PG-SG = PG, SF-PF = SF etc.) I also only included players who played more than 30 games and averaged 10 or more minutes per game.
+
+![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/NBA_Trends/figs/3PA_pos-boxen.png)
+
+Since the Warriors exploded on to the scene and won the 2015 championship the rate at which "big men", especially 4s, attempt 3s has exploded. 
+
+![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/NBA_Trends/figs/3PA_pos-line.png)
+
+In 2018 players classified as playing the 4 or "PF" actually attempted on average more 3s than players playing in the traditional wing forward or "small forward position.
 
 ## MVP RACE 2019
  
