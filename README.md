@@ -5,7 +5,7 @@ Analysis of various facets and storylines of the 2018-2019 NBA regular season us
 All data is courtesy of [Basketball Reference](https://www.basketball-reference.com/) unless otherwise noted.
 
 ## CONTENTS:
-- Trends Analysis
+- NBA Trends Analysis
 - MVP RACE 2019
 - The Veteran Effect
 - Consitency is key (coming soon)
@@ -13,7 +13,7 @@ All data is courtesy of [Basketball Reference](https://www.basketball-reference.
 - Player "Portability" (coming soon)
 - Most Improved Player(s) (Figures in Repo)
 
-## NBA Trend Analysis
+## NBA Trends Analysis
 
 ### Introduction:
 
