@@ -21,16 +21,18 @@ data2 = pts.as_matrix(columns=None)
 
 fig, ax1 = plt.subplots(dpi=75)
 
+sns.set_style('whitegrid')
+
 color = 'tab:blue'
 ax1.set_xlabel('Year of Season')
 ax1.set_ylabel('3PA per game', color=color)
-ax1.plot(df['year'], data1, color=color)
+ax1.plot(df['year'], data1, color=color, linewidth = 3)
 ax1.tick_params(axis='y', labelcolor=color)
 
 ax2 = ax1.twinx()
 color = 'tab:red'
 ax2.set_ylabel('Points Per Game', color=color) 
-ax2.plot(df['year'], data2, color=color)
+ax2.plot(df['year'], data2, color=color, linestyle = '--')
 ax2.tick_params(axis='y', labelcolor=color)
 
 fig.tight_layout() 
