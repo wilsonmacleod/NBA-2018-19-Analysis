@@ -7,10 +7,10 @@ All data is courtesy of [Basketball Reference](https://www.basketball-reference.
 ## CONTENTS:
 - Trends Analysis
 - MVP RACE 2019
+- The Veteran Effect
 - Consitency is key (coming soon)
 - Bestbrook or Worstbrook? (coming soon)
 - Player "Portability" (coming soon)
-- The Veteran Effect (coming soon)
 - Keys to team success (coming soon)
 - Most Improved Player(s)
 
@@ -38,7 +38,7 @@ Based on my analysis teams generally "peak" in terms of win percentage in the 3r
 
 ## The Three Point Revolution
 
-### Introduction
+### Introduction:
 
 I wanted to see if I could track the impact the success of the Golden State Warriors and their style of play have had on the league.
 
@@ -110,9 +110,26 @@ Defensive impact is very hard to quantify even using advanced stats and lets be 
 
 ![alt text](https://github.com/wilsonmacleod/NBA-2018-19-Analysis/blob/master/MVP_Race/figs/generalDEF.png)
 
+## The Veteran Effect
 
+### Introduction:
 
+In today's NBA, players are expected to hit the ground running at a very young age. I wanted to see if I could find any effects of experience/age in terms of productivity on either side of the ball. For these figures I used all players aged 18-37 from the years 2000-2019.
 
+### Young Athleticism vs. Veteran Savvy?
 
+As player age increases offensive rating increases while defensive rating starts declines, particulary rapidly at about 30 years old. This analysis matches up with the conventional wisdom that most players "peak" at around ages 26-30 and it takes a while for young players to adjust offensively. 
+
+![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/Vets/figs/ratings.png)
+
+### Experience Is The Greatest Teacher
+
+Players also make "smarter plays" as they age they commit fouls and turnover the ball at a lower rate as they get older and gain more League experience. 
+
+![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/Vets/figs/to_pf.png)
+
+On average they also shoot at a lower rate and make passes leading to teammates scoring at a higher rate as they age.
+
+![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/Vets/figs/pts_ast.png)
 
 
