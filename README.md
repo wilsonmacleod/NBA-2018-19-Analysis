@@ -7,9 +7,9 @@ All data is courtesy of [Basketball Reference](https://www.basketball-reference.
 ## CONTENTS:
 - NBA Trends Analysis
 - MVP RACE 2019
+- Bestbrook or Worstbrook?
 - The Veteran Effect
 - Consitency is key (coming soon)
-- Bestbrook or Worstbrook? (coming soon)
 - Player "Portability" (coming soon)
 - Most Improved Player(s) (Figures in Repo)
 
