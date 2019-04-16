@@ -109,6 +109,30 @@ Defensive impact is very hard to quantify even using advanced stats and lets be 
 
 ![alt text](https://github.com/wilsonmacleod/NBA-2018-19-Analysis/blob/master/MVP_Race/figs/generalDEF.png)
 
+## Bestbrook or Worstbook?
+
+### Introduction
+
+Russell Westbrooks pros and cons as basketball player are well documentated throughout the NBA-sphere. I wanted to see if I could find any interesting trends in his play this season.
+
+### Triple Double Machine
+
+In 2018-19 Westbrook had one of his worst shooting seasons in his career, but the other parts of his stat-sheet stuffing game did not falter. By the end of the season, on average, it was more likely for him to end a game with a triple double than it was for him to make a given field goal. He ended the season shooting 42% from the field, with 46% of his 73 games played being recorded as triple doubles.
+
+![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/Russ/figs/tripledoubles_fg.png)
+
+### Smart plays and Dumb plays
+
+Westbrook finds and creates opportunities for his teammates at a league leading rate, his major downfall this season has been his love of shooting threes. 
+
+![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/Russ/figs/russ_subplot.png)
+
+His three-point habit also effects how the team performs... The more threes he attempts the 'lower' the Thunder's point differential. Unsuprisingly his assist tally increasing has the opposite effect. 
+
+![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/Russ/figs/3pa_pointdiff.png) ![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/Russ/figs/ast_pointdiff.png)
+
+More coming soon on Russ...
+
 ## The Veteran Effect
 
 ### Introduction:
@@ -130,6 +154,3 @@ Players also make "smarter plays" as they age they commit fouls and turnover the
 On average they also shoot at a lower rate and make passes leading to teammates scoring at a higher rate as they age.
 
 ![alt text](https://github.com/wilsonmacleod/NBA-2018-19_Analysis/blob/master/Vets/figs/pts_ast.png)
-
-
-
