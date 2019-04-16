@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
-plt.rcParams.update({'font.size': 12})
 df = pd.read_csv(r'C:\Users\wilso\Desktop\NBA_Analysis\Russ\data\russ18_19.csv')
 
 conditions = [(df['PTS']>=10) & (df['AST']>=10) & (df['TRB']>=10)] #find and mark triple doubles
@@ -18,6 +17,7 @@ data1 = df['td_perc'].as_matrix(columns=None) #figure
 data2 = df['cum_fg'].as_matrix(columns=None)
 
 fig, ax1 = plt.subplots(dpi=100, figsize=(8,4))
+plt.rcParams.update({'font.size': 12})
 
 color = 'tab:blue'
 ax1.set_xlabel('Games Played')
